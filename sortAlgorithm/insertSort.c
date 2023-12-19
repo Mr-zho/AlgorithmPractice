@@ -45,7 +45,7 @@ int main()
     int prevIndex = 0;
     for (int idx = 1; idx < BUFFER_SIZE; idx++)
     {   
-        /* 当前遍历到的索引 */
+        /* 当前遍历到的索引的值 */
         currentVal = array[idx];
         prevIndex = idx - 1;
         while ((currentVal < array[prevIndex]) && prevIndex >= 0)
